@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <title>Blog Project</title>
+</head>
+<body>
+  <header>
+    <h1>The Blog</h1>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <h3>Add new post</h3>
+
+      <form action="" id="post-form">
+        <label for="txt-title">Title</label>
+
+        <input type="text" id="txt-title" placeholder="Title here..." required size="30">
+
+        <label for="content">Content</label>
+
+        <textarea name="content" id="content" cols="116" rows="5" placeholder="Content here..." required></textarea>
+
+        <input type="submit" id="btn-submit" value="Submit">
+      </form>
+
+      <div class="posted-content-container">
+        <h3>Posts</h3>
+
+        <ul id="add-post-here">
+          <li>
+            <div class="post">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+              
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta qui veritatis aliquam, eveniet ex corporis quasi quae quam fugit obcaecati nesciunt temporibus necessitatibus ut perspiciatis rem fugiat quisquam. Sint reiciendis soluta, neque vero officia perspiciatis incidunt, cumque repellendus tempore blanditiis sunt nesciunt.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="post">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur dolore blanditiis, fugit molestiae tenetur quis sed est numquam officiis. Illum, velit commodi dolorem laboriosam quibusdam ipsa molestias deserunt tempora numquam natus, voluptate exercitationem officia suscipit non! Necessitatibus quibusdam delectus odio dolores obcaecati minus, aliquam provident. Provident illo obcaecati nostrum similique animi nulla, quae quo laudantium odio totam aliquid possimus suscipit repellendus voluptatem consequatur sunt! Doloribus nulla quisquam id. Nulla, possimus? Eaque itaque voluptas atque cum id, minus quidem sint.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
