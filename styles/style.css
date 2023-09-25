@@ -69,6 +69,22 @@ header{
   padding: 0 3px;
 }
 
+/* FOOTER */
+footer {
+  height: 80px;
+  background: #505050;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span{
+  color: lime;
+  text-shadow: 0 0 5px lime, 0 0 10px lime, 0 0 20px lime;
+}
+
+/* RESPONSIVE FEATURE */
 @media only screen and (max-width: 600px) {
   .form-container input#txt-title{
     align-self: stretch;
