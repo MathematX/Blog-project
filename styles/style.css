@@ -37,7 +37,6 @@ header{
   font-weight: bold;
 }
 
-.form-container #btn-submit,
 .form-container input{
   align-self: self-start;
   margin-bottom: 10px;
@@ -68,4 +67,23 @@ header{
   border: 2px solid black;
   margin: 10px 0;
   padding: 0 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-container input#txt-title{
+    align-self: stretch;
+  }
+  
+  .form-container input#btn-submit{
+    align-self: center;
+  }
+
+  .posted-content-container .post h1{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .posted-content-container .post p{
+    text-align: justify;
+  }
 }
